@@ -101,9 +101,7 @@
 			"name": "User-defined constant",
 			"scope": "constant.character, constant.other",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#8080FF",
-				"background": "#1e1e1e"
 			}
 		},
 		{
@@ -180,7 +178,7 @@
 		},
 		{
 			"name": "Keywords, regular",
-			"scope": "keyword, keyword.operator.documentation, punctuation.separator, punctuation.accessor",
+			"scope": "keyword, keyword.operator.documentation, punctuation.separator, punctuation.accessor, source.ts storage.type, source.js storage.type",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#676867"
@@ -206,7 +204,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#FF0B00"
 			}
 		},
