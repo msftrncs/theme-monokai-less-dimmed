@@ -220,7 +220,7 @@
 		},
 		{
 			"name": "object properties",
-			"scope": "variable.other.property, variable.object.property, meta.object-literal.key, entity.name.variable, support.type.property-name",
+			"scope": "variable.other.property, variable.object.property, meta.object-literal.key, entity.name.variable",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#6aa7e9"
@@ -244,7 +244,7 @@
 		},
 		{
 			"name": "Tag Name",
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag, support.type.property-name",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#6089B4"
@@ -276,7 +276,7 @@
 		},
 		{
 			"name": "Tag Attribute",
-			"scope": "entity.other.attribute-name, meta.tag punctuation.definition.string, variable.parameter.attribute, entity.name.parameter",
+			"scope": "entity.other.attribute-name, meta.tag punctuation.definition.string, variable.parameter.attribute, entity.name.parameter, punctuation.support.type.property-name",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#D0B344"
