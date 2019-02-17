@@ -204,7 +204,7 @@
 		},
 		{
 			"name": "Normal Variable",
-			"scope": "variable.other.php, variable.other.normal",
+			"scope": "variable.other.php, variable.other.normal, variable",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#6089B4"
