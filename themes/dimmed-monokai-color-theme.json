@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "String",
-			"scope": "string",
+			"scope": "string, constant.character",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#9AA83A"
@@ -94,7 +94,7 @@
 		},
 		{
 			"name": "User-defined constant",
-			"scope": "constant.character, constant.other, entity.name.label",
+			"scope": "constant.character.escape, constant.other, entity.name.label",
 			"settings": {
 				"foreground": "#8080FF",
 			}
@@ -150,14 +150,6 @@
 		{
 			"name": "Tag name",
 			"scope": "entity.name.tag",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#9872A2"
-			}
-		},
-		{
-			"name": "Tag attribute",
-			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#9872A2"
