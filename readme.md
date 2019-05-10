@@ -4,16 +4,16 @@ A less dimmed theme based on Monokai Dimmed, with an broadened palette specifica
 
  - PowerShell
 
-   ![PowerShell Example](.\Example_PowerShell.png)
+   ![PowerShell Example](Example_PowerShell.png)
 
  - JavaScript
 
-   ![JavaScript Example](.\Example_JS.png)
+   ![JavaScript Example](Example_JS.png)
 
  - TypeScript
 
-   ![TypeScript Example](.\Example_TS.png)
+   ![TypeScript Example](Example_TS.png)
 
  - IEC 61131-3 Structured Text
 
-   ![IEC 61131-3 Structured Text Example](.\Example_IECST.png)
+   ![IEC 61131-3 Structured Text Example](Example_IECST.png)
