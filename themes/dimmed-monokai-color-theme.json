@@ -165,7 +165,17 @@
 		},
 		{
 			"name": "Keywords, regular",
-			"scope": "keyword, keyword.operator.documentation, punctuation.separator, punctuation.accessor, source.ts storage.type, source.js storage.type",
+			"scope": [
+				"keyword", 
+				"keyword.operator.documentation",
+				"punctuation.separator", 
+				"punctuation.accessor", 
+				"source.ts storage.type", 
+				"source.tsx storage.type", 
+				"source.js storage.type", 
+				"source.jsx storage.type", 
+				"source.asp.vb.net storage.type",
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#676867"
