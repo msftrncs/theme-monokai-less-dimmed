@@ -287,7 +287,7 @@
 			"scope": "punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#D7875F" //Light Salmon 3
+				"foreground": "#D7875F" // Light Salmon 3
 			}
 		},
 		{
