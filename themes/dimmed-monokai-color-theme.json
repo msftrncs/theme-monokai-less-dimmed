@@ -15,7 +15,7 @@
 		"editor.lineHighlightBackground": "#303030",
 		"editorLineNumber.activeForeground": "#949494",
 		"editor.wordHighlightBackground": "#4747a180",
-        "editor.wordHighlightStrongBackground": "#6767ce80",
+		"editor.wordHighlightStrongBackground": "#6767ce80",
 		"editorCursor.foreground": "#c07020",
 		"editorWhitespace.foreground": "#505037",
 		"editorIndentGuide.background": "#505037",
@@ -38,9 +38,28 @@
 		"menu.background": "#272727",
 		"menu.foreground": "#CCCCCC",
 		"pickerGroup.foreground": "#b0b0b0",
-		"terminal.ansiWhite": "#ffffff",
 		"inputOption.activeBorder": "#3655b5",
-		"focusBorder": "#3655b5"
+		"focusBorder": "#3655b5",
+		"terminal.foreground": "#839496",
+        "terminal.background": "#002833",
+        "terminal.ansiBlack": "#003541",
+        "terminal.ansiBlue": "#37376e",
+        "terminal.ansiCyan": "#2aa198",
+        "terminal.ansiGreen": "#859901",
+        "terminal.ansiMagenta": "#d33682",
+        "terminal.ansiRed": "#dc322f",
+        "terminal.ansiWhite": "#cccccc",
+        "terminal.ansiYellow": "#b58901",
+        "terminal.ansiBrightBlack": "#586e75",
+        "terminal.ansiBrightBlue": "#839496",
+        "terminal.ansiBrightCyan": "#61d6d6",
+        "terminal.ansiBrightGreen": "#16cc0c",
+        "terminal.ansiBrightMagenta": "#6c6ec6",
+        "terminal.ansiBrightRed": "#cb4b16",
+        "terminal.ansiBrightWhite": "#fdf6e3",
+        "terminal.ansiBrightYellow": "#f9f1a5",
+        "terminalCursor.foreground": "#949683",
+        "terminalCursor.background": "#003541"
 	},
 	"tokenColors": [
 		{
@@ -63,7 +82,7 @@
 		{
 			"name": "String",
 			"scope": "string, constant.character",
-			"settings": { 
+			"settings": {
 				"fontStyle": "",
 				"foreground": "#9AA83A"
 			}
@@ -89,7 +108,7 @@
 			"scope": "constant.language",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5F875F"// Dark Sea Green 4
+				"foreground": "#5F875F" // Dark Sea Green 4
 			}
 		},
 		{
@@ -166,14 +185,14 @@
 		{
 			"name": "Keywords, regular",
 			"scope": [
-				"keyword", 
+				"keyword",
 				"keyword.operator.documentation",
-				"punctuation.separator", 
-				"punctuation.accessor", 
-				"source.ts storage.type", 
-				"source.tsx storage.type", 
-				"source.js storage.type", 
-				"source.jsx storage.type", 
+				"punctuation.separator",
+				"punctuation.accessor",
+				"source.ts storage.type",
+				"source.tsx storage.type",
+				"source.js storage.type",
+				"source.jsx storage.type",
 				"source.asp.vb.net storage.type",
 			],
 			"settings": {
@@ -348,8 +367,11 @@
 			}
 		},
 		{
-			"name": "Template Definition",
-			"scope": "punctuation.definition.template-expression",
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression",
+				"punctuation.section.embedded"
+			],
 			"settings": {
 				"foreground": "#D7875F" // Light Salmon 3
 			}
@@ -390,14 +412,6 @@
 			"scope": "source.php.embedded.line.html",
 			"settings": {
 				"foreground": "#676867"
-			}
-		},
-		{
-			"name": "Punctuation Embedded",
-			"scope": "punctuation.section.embedded.begin, punctuation.section.embedded.end",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#D7875F" // Light Salmon 3
 			}
 		},
 		{
