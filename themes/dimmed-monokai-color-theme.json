@@ -76,7 +76,7 @@
 			"scope": "comment",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#9E9E9E"
+				"foreground": "#676867"
 			}
 		},
 		{
@@ -120,15 +120,15 @@
 		},
 		{
 			"name": "Operators",
-			"scope": "keyword.operator, punctuation.definition.variable, keyword.other.variable, keyword.other.parameter",
+			"scope": "keyword.operator, keyword.other.variable, keyword.other.parameter",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#676867"
+				"foreground": "#376e6e"
 			}
 		},
 		{
 			"name": "Support",
-			"scope": "support, support punctuation.definition.variable, keyword.type",
+			"scope": "support, keyword.type",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#c744a6"
@@ -187,8 +187,6 @@
 			"scope": [
 				"keyword",
 				"keyword.operator.documentation",
-				"punctuation.separator",
-				"punctuation.accessor",
 				"source.ts storage.type",
 				"source.tsx storage.type",
 				"source.js storage.type",
@@ -197,7 +195,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#676867"
+				"foreground": "#9872A2"
 			}
 		},
 		{
@@ -355,7 +353,7 @@
 			"scope": "support.type.property-name.css",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#676867"
+				"foreground": "#376e6e"
 			}
 		},
 		{
@@ -411,7 +409,7 @@
 			"name": "PHP Parenthesis HMTL Fix",
 			"scope": "source.php.embedded.line.html",
 			"settings": {
-				"foreground": "#676867"
+				"foreground": "#376e6e"
 			}
 		},
 		{
