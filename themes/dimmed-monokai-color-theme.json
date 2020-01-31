@@ -163,7 +163,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5f87af" // steel blue
+				"foreground": "#D0B344"
 			}
 		},
 		{
@@ -295,7 +295,7 @@
 		},
 		{
 			"name": "Tag Attribute",
-			"scope": "entity.other.attribute-name, meta.tag punctuation.definition.string, variable.parameter.attribute, entity.name.parameter, punctuation.support.type.property-name",
+			"scope": "entity.other.attribute-name, meta.tag punctuation.definition.string, punctuation.support.type.property-name",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#D0B344"
