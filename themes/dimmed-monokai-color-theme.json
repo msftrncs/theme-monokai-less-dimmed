@@ -88,14 +88,6 @@
 			}
 		},
 		{
-			"name": "String Embedded Source",
-			"scope": "string source",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#D7875F" // Light Salmon 3
-			}
-		},
-		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
@@ -279,7 +271,7 @@
 		},
 		{
 			"name": "Tag Inline Source",
-			"scope": "meta.tag.inline source, text.html.php.source",
+			"scope": "meta.tag.inline -source, text.html.php.source",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#9AA83A"
@@ -321,14 +313,6 @@
 			"name": "HTML ID",
 			"scope": "meta.toc-list.id",
 			"settings": {
-				"foreground": "#9AA83A"
-			}
-		},
-		{
-			"name": "HTML String",
-			"scope": "string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
-			"settings": {
-				"fontStyle": "",
 				"foreground": "#9AA83A"
 			}
 		},
