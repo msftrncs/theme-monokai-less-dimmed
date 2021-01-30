@@ -120,7 +120,7 @@
 		},
 		{
 			"name": "Support",
-			"scope": "support, keyword.type",
+			"scope": "support, keyword.type, punctuation.definition.group",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#c744a6"
