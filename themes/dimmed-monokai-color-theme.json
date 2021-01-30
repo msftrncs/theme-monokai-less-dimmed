@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "Number",
-			"scope": "constant.numeric",
+			"scope": "constant.numeric, constant.other.character-class.set",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#00AF87" // Dark Cyan
@@ -97,7 +97,7 @@
 		},
 		{
 			"name": "Built-in constant",
-			"scope": "constant.language",
+			"scope": "constant.language, constant.other.character-class",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#5F875F" // Dark Sea Green 4
@@ -136,7 +136,7 @@
 		},
 		{
 			"name": "Class name",
-			"scope": "entity.name.class, entity.name.type, storage.type, entity.other.inherited-class",
+			"scope": "entity.name.class, entity.name.type, storage.type, entity.other.inherited-class, punctuation.definition.character-class",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#C7444A",
@@ -144,7 +144,7 @@
 		},
 		{
 			"name": "Function name",
-			"scope": "entity.name.function, variable.function",
+			"scope": "entity.name.function, variable.function, constant.other.character-class.range",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#CE6700"
