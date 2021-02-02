@@ -17,7 +17,7 @@
 		"editor.wordHighlightBackground": "#4747a180",
 		"editor.wordHighlightStrongBackground": "#6767ce80",
 		"editorCursor.foreground": "#c07020",
-		"editorWhitespace.foreground": "#505037",
+		"editorWhitespace.foreground": "#3f3f0d",
 		"editorIndentGuide.background": "#505037",
 		"editorIndentGuide.activeBackground": "#707057",
 		"editorGroupHeader.tabsBackground": "#282828",
@@ -51,7 +51,7 @@
         "terminal.ansiWhite": "#cccccc",
         "terminal.ansiYellow": "#b58901",
         "terminal.ansiBrightBlack": "#586e75",
-        "terminal.ansiBrightBlue": "#839496",
+        "terminal.ansiBrightBlue": "#0080ff",
         "terminal.ansiBrightCyan": "#61d6d6",
         "terminal.ansiBrightGreen": "#16cc0c",
         "terminal.ansiBrightMagenta": "#6c6ec6",
@@ -81,7 +81,7 @@
 		},
 		{
 			"name": "String",
-			"scope": "string, constant.character",
+			"scope": "string, constant.character, source punctuation.definition.string",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#9AA83A"
@@ -287,7 +287,7 @@
 		},
 		{
 			"name": "Tag Attribute",
-			"scope": "entity.other.attribute-name, meta.tag punctuation.definition.string, punctuation.support.type.property-name",
+			"scope": "entity.other.attribute-name, meta.attribute string punctuation.definition.string.begin.html, meta.attribute string punctuation.definition.string.end.html, punctuation.support.type.property-name",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#D0B344"
