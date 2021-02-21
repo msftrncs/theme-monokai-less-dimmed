@@ -64,7 +64,8 @@
 	"tokenColors": [
 		{
 			"scope": [
-				"meta.embedded",
+				"meta.embedded", 
+				"meta.interpolation",
 				"source.groovy.embedded"
 			],
 			"settings": {
@@ -352,7 +353,8 @@
 			"name": "String interpolation",
 			"scope": [
 				"punctuation.definition.template-expression",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"punctuation.definition.interpolation"
 			],
 			"settings": {
 				"foreground": "#D7875F" // Light Salmon 3
