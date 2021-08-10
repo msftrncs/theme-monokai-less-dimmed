@@ -1,5 +1,6 @@
 {
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"dropdown.background": "#525252",
 		"list.activeSelectionBackground": "#707070",
@@ -66,7 +67,8 @@
 			"scope": [
 				"meta.embedded", 
 				"meta.interpolation",
-				"source.groovy.embedded"
+				"source.groovy.embedded",
+				"punctuation.separator.colon"
 			],
 			"settings": {
 				"foreground": "#C5C8C6"
@@ -145,7 +147,7 @@
 		},
 		{
 			"name": "Function name",
-			"scope": "entity.name.function, variable.function, constant.other.character-class.range",
+			"scope": "entity.name.function, entity.name.operator, variable.function, constant.other.character-class.range",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#CE6700"
@@ -180,6 +182,8 @@
 			"scope": [
 				"keyword",
 				"keyword.operator.documentation",
+				"source.c storage.type",
+				"source.cpp storage.type",
 				"source.ts storage.type",
 				"source.tsx storage.type",
 				"source.js storage.type",
