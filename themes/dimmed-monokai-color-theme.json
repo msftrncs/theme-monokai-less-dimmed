@@ -139,7 +139,7 @@
 		},
 		{
 			"name": "Class name",
-			"scope": "entity.name.class, entity.name.type, storage.type, entity.other.inherited-class, punctuation.definition.character-class",
+			"scope": "entity.name.class, entity.name.type, storage.type, entity.other.inherited-class, entity.name.scope-resolution, punctuation.definition.character-class",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#C7444A",
