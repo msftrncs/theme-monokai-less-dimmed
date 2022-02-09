@@ -466,6 +466,14 @@
 			}
 		},
 		{
+			"name": "Markup Strikethrough",
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough",
+				"foreground": "#9c9c9c"
+			}
+		},
+		{
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
