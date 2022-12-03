@@ -236,7 +236,7 @@
 		},
 		{
 			"name": "object properties",
-			"scope": "variable.other.property, variable.object.property, variable.other.object.property, meta.object-literal.key, entity.name.variable",
+			"scope": "variable.other.property, variable.object.property, variable.other.object.property, meta.object-literal.key, entity.name.variable, meta.head.function.definition.special.constructor entity.name.function.call.initializer",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#6aa7e9"
