@@ -147,7 +147,7 @@
 		},
 		{
 			"name": "Function name",
-			"scope": "entity.name.function, entity.name.operator, variable.function, constant.other.character-class.range",
+			"scope": "entity.name.function, entity.name.operator, variable.function, constant.other.character-class.range, meta.function.definition.special.operator-overload keyword.other.operator.overload",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#CE6700"
