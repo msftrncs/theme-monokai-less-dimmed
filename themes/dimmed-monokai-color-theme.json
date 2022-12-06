@@ -118,7 +118,7 @@
 			"scope": "keyword.operator, keyword.other.variable, keyword.other.parameter",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#376e6e"
+				"foreground": "#D7875F" // Light Salmon 3
 			}
 		},
 		{
@@ -368,7 +368,7 @@
 			"name": "Label",
 			"scope": "entity.name.label",
 			"settings": {
-				"foreground": "#D7875F" // Light Salmon 3
+				"foreground": "#376e6e"
 			}
 		},
 		{
@@ -399,7 +399,7 @@
 			"name": "PHP Parenthesis HMTL Fix",
 			"scope": "source.php.embedded.line.html",
 			"settings": {
-				"foreground": "#376e6e"
+				"foreground": "#D7875F" // Light Salmon 3
 			}
 		},
 		{
