@@ -322,11 +322,11 @@
 			}
 		},
 		{
-			"name": "HTML Tags",
-			"scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end",
+			"name": "XML Tags Punctuation",
+			"scope": "punctuation.definition.tag",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5f87af" // steel blue
+				"foreground": "#D0B344"
 			}
 		},
 		{
