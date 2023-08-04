@@ -107,8 +107,8 @@
 			}
 		},
 		{
-			"name": "User-defined constant",
-			"scope": "constant.character.escape, constant.other",
+			"name": "character escape",
+			"scope": "constant.character.escape", //constant.other",
 			"settings": {
 				"foreground": "#8080FF",
 			}
