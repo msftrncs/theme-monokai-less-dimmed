@@ -71,6 +71,7 @@
 				"punctuation.separator.colon"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#C5C8C6"
 			}
 		},
@@ -84,9 +85,9 @@
 		},
 		{
 			"name": "String",
-			"scope": "string, constant.character, source punctuation.definition.string",
+			"scope": "string, constant.character -constant.character.escape ",// source punctuation.definition.string",
 			"settings": {
-				"fontStyle": "",
+				"fontStyle": "underline",
 				"foreground": "#9AA83A"
 			}
 		},
@@ -292,7 +293,7 @@
 		},
 		{
 			"name": "Tag Attribute",
-			"scope": "entity.other.attribute-name, meta.attribute string punctuation.definition.string.begin.html, meta.attribute string punctuation.definition.string.end.html, punctuation.support.type.property-name",
+			"scope": "entity.other.attribute-name, meta.attribute string punctuation.definition.string.begin.html, meta.attribute string punctuation.definition.string.end.html, punctuation.support.type.property-name, punctuation.definition.string",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#D0B344"
